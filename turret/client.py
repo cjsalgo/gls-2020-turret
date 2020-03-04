@@ -42,7 +42,7 @@ class TurretClient:
         msg['Subject'] = 'Welcome to GLS Manila South 2020'
 
         # string to store the body of the mail
-        body = '<html><body><img width="100%" height="100%" src="https://drive.google.com/uc?export=view&id=1JwzlU_4IorJoq4_O7ryJltZj1_Gyirws"/><br><br>Hi ' + name + ',<br><br>Welcome to the <b>Global Leadership Summit (GLS) Manila South.</b> We are glad that you are<br>here with us.<br><br>Thank you for providing your contact information to us. To show our appreciation, you are<br>receiving the link to Craig Groschel’s coaching event which will happen on April 2020.<br><br>https://intlsummitreg.regfox.com/online-coaching-with-craig-english<br><br>We hope that Craig Groschel’s coaching event will further help you in your leadership journey.<br><br>Enjoy the Summit!<br><br><b>GLS Manila South Team</b></body></html>'
+        body = '<html><body><img src="https://drive.google.com/uc?export=view&id=1JwzlU_4IorJoq4_O7ryJltZj1_Gyirws"/><br><br>Hi ' + name + ',<br><br>Welcome to the <b>Global Leadership Summit (GLS) Manila South.</b> We are glad that you are<br>here with us.<br><br>Thank you for providing your contact information to us. To show our appreciation, you are<br>receiving the link to Craig Groschel’s coaching event which will happen on April 2020.<br><br>https://intlsummitreg.regfox.com/online-coaching-with-craig-english<br><br>We hope that Craig Groschel’s coaching event will further help you in your leadership journey.<br><br>Enjoy the Summit!<br><br><b>GLS Manila South Team</b></body></html>'
 
         # attach the body with the msg instance
         msg.attach(MIMEText(body, 'html', 'utf-8'))
